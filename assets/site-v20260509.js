@@ -1,5 +1,5 @@
 (() => {
-  const ASSET_VERSION = "20260564";
+  const ASSET_VERSION = "20260566";
 
   const PAGE_CONFIG = {
     my: {
@@ -36,7 +36,7 @@
     if (!config || !langButtons.length) return;
 
     document.fonts?.load?.('400 1em "tt-hei-chs-variable"', "88 次幸运免费旋转");
-    document.fonts?.load?.('400 1em "tt-hei-chs-variable"', "只需几分钟，填写基本信息即可完成开户。");
+    document.fonts?.load?.('400 1em "tt-hei-chs-variable"', "填写您的基本资料，简单几个步骤即可完成注册。");
     document.fonts?.load?.('500 1em "tt-hei-chs-variable"', "领取奖励");
 
     let copy;
